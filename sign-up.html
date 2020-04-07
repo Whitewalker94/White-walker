@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="sign-up.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="Tasks/piggyvest-logo.0b78a8fa.svg" alt="piggybank logo">
+            </a>
+        </div>
+    
+        <div class="register">
+        <h1>Create a Secure Account</h1>
+        <p id="h1-text">Welcome to the future of Savings & Investments</p>
+
+            <form class="form-container" action="processform.php" method="post">
+                <p>
+                    <label for="full_name">Full Name</label> <br>
+                    <input type="text" name="first_name" class="input-box" placeholder="Full Name">
+                </p>
+
+                <p>
+                    <label for="email_address">Email Address</label> <br>
+                    <input type="text" name="last_name" class="input-box" placeholder="Email Address">
+                </p>
+
+                <p>
+                    <label for="phone_number">Phone Number</label><br>
+                    <input type="text" name="email_address" class="input-box" placeholder="Phone Number">
+                </p>
+
+                <p>
+                    <label for="password"></label>Password<br>
+                    <input type="text" name="password" class="input-box" placeholder="Password">
+                </p>
+
+                <p>
+                    <label for="referrer_code"></label>Referrer Phone or Promo Code (Optional)<br>
+                    <input type="text" name="referrer_code" class="input-box" placeholder="Referrer Phone Or Code">
+                </p>
+
+                <p>
+                    <label for="find_us">How Did You Hear About Us? (Optional)</label><br>
+                    <select name="Click To Select" id="dropdown">
+                        <option value="" disabled selected>Click To Select</option>
+                        <option>Facebook</option>
+                        <option>Twitter</option>
+                        <option>Instagram</option>
+                        <option>Friend/Family/Cowoker Referral</option>
+                        <option>Google Search</option>
+                        <option>Google playstore</option>
+                        <option>Online Blog</option>
+                        <option>Local Newspaper</option>
+                        <option>At an Event</option>
+                        <option>Other</option>
+                    </select>
+                </p> 
+
+            
+                    <button type="submit">CREATE ACCOUNT</button>
+
+                <!-- <p>
+                    <input type="checkbox" name="terms" required> By Checking this box you agree to our terms and conditions.
+                </p> -->
+            </form>
+
+        </div>
+        <a href="">
+            <p id="User">Already have an account? Log In</p>
+        </a>
+        
+
+    </div>    
+</body>
+</html>
